@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "hackclient",
+  "version": "${version}",
+  "name": "HackClient",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.archive.hackclient.HackClient"] },
+  "mixins": ["hackclient.mixins.json"],
+  "depends": { "fabricloader": ">=0.16.0", "fabric-api": "*", "minecraft": "1.21.4" }
+}

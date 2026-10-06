@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "dev.archive.hackclient.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "KeyboardMixin",
+    "ClientPlayerEntityMixin",
+    "PlayerEntityMixin",
+    "ClientPlayerInteractionManagerMixin",
+    "EntityMixin",
+    "EntityRenderDispatcherMixin",
+    "InGameHudMixin",
+    "LightmapTextureManagerMixin"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}
